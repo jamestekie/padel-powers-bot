@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+booking_bot.log
+
+# Helper scripts (development/debugging)
+helpers/
+
+# Page captures (screenshots and HTML)
+captures/
+
+# Secret credentials (KEEP IT PRIVATE!)
+config_secret.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
+
+# Lock files (optional - remove if you want to commit uv.lock)
+# uv.lock
